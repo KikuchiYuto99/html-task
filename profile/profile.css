@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    background-color: #87CEFA;
+}
+
+.text-purple{
+    color: purple;
+}
+
+img{
+    width: 30%;
+    height: 10%;
+}
+
+.nba{
+    color: blue;
+}
+
+.car{
+    color: brown;
+}
+
+.idol{
+    color: yellow;
+}
