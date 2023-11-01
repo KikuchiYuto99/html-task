@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{
+    background-image: url(img/movie.jpg);
+    background-size: contain;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.task{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie{
+    background-color: #b01c34;
+    padding: 10px;
+    width: 300px;
+    height: 375px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+a{
+    background-color: #f3779d;
+    color: #000000;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+}
