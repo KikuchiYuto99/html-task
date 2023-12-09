@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+.down{
+    list-style: "その";
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.last{
+    list-style: "あと";
+}
+
+.color{
+    color: blue;
+}
+
+img{
+    height: 240px;
+    width: 350px;
+}
+
+.question{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.answer{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    color: #A52A2A;   
+}

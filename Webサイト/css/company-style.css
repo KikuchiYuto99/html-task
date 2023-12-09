@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+}
+
+img{
+    height: 320px;
+    width: 400px;
+}
+
+.message{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.HP{
+    color: purple;
+}
+
+h2 a{
+    text-decoration: none;
+}
+
+.size{
+    margin: 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 25px;
+}
