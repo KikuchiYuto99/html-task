@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/milet-profile-back.jpg);
+    background-size: cover;   
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header nav{
+    display: flex;
+}
+
+.header-item li{
+    display: inline;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main{
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+table, th, td{
+    border: #343a40 solid 2px;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    padding: 15px;
+}
+
+table th{
+    text-align: center;
+    background-color: #6c757d;
+}
+
+table td{
+    background-color: white;
+    color: black;
+}
+
+.icon::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9CD4A4;
+}
+
+.features{
+    font-size: 17px;
+}
+
+.career{
+    margin-top: 50px;
+    width: 45%;
+}
+
+.table{
+    margin-left: 15px;
+}
+
+footer{
+    margin: 80px;
+}

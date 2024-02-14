@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/milet-index-back.jpg);
+    background-size: cover;   
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header nav{
+    display: flex;
+}
+
+.header-item li{
+    display: inline;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+main{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+button{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-top: 0;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #5c9ead;
+}
+
+button:hover{
+    background-color: #326273;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}

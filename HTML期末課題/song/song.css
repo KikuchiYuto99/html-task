@@ -1,0 +1,100 @@
+@charset "utf-8";
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/milet-song-back.jpg);
+    background-size: cover;   
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header{
+    position: fixed;
+}
+
+header nav{
+    display: flex;
+}
+
+.header-item li{
+    display: inline;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.icon::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9CD4A4;
+}
+
+.main{
+    width: 50%;
+    margin-left: 50%;
+    color: white;
+}
+
+.song li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.element{
+    padding-bottom: 25px;
+    margin-right: 10%;
+    border-bottom: white solid 3px;
+}
+
+footer{
+    margin: 80px 0;
+    width: 100%;
+}
+
+.footer{
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #0a9396;
+}
+
+footer button{
+    padding: 15px;
+    border-radius: 15px;
+}
+
+footer button:hover{
+    background-color: #001219;
+}
+
+.youtube img{
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+}
+
+.youtube{
+    margin-top: 65%;
+}

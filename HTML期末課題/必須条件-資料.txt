@@ -1,0 +1,6 @@
+＜ページ内遷移＞
+songフォルダ内のsong.html
+
+＜疑似クラス＞
+・index.htmlのbuttonタグ
+・song.htmlのbuttonタグ
